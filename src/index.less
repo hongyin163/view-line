@@ -1,0 +1,125 @@
+.view{
+    &__lines{
+        display: none;
+        pointer-events: none;
+        i.line{ position: absolute;}
+        .t{top: 0px;left: 0;right: 0;height: 0;width: auto;border: 0; border-top: 1px solid red;z-index:10 ;}
+        .r{right: 0;top: 0;bottom: 0;width: 0;height: auto;border: 0; border-right: 1px solid red;z-index:10 ;}
+        .b{bottom: 0;left: 0;right: 0;height: 0;width: auto;border: 0; border-bottom: 1px solid red;z-index:10 ;}
+        .l{left: 0;top: 0;bottom: 0;height: auto;width:0;border: 0; border-left: 1px solid red;z-index:10 ;}
+    }
+
+    &__resize-label{
+        position: fixed;
+        height: 24px;
+        padding: 0 5px;
+        display: inline-block;
+        line-height: 24px;
+        font-size: 12px;
+        z-index: 999;
+        background: #FB7055;
+        border-radius: 3px;
+        color: #fff;
+        transform: translateX(-50%);
+        // display: none;
+
+    }
+    &__v-line{
+        position: fixed;
+        width: 0;
+        border-left: 1px solid red;
+        z-index: 999;
+        pointer-events: none;
+    }
+    &__h-line{
+        position: fixed;
+        height: 0;
+        border-top: 1px solid red;
+        z-index: 999;
+        pointer-events: none;
+    }
+    &__h-dist-line{
+        position: fixed;
+        height: 0;
+        border-top: 1px dashed #adadad;
+        z-index: 999;
+        text-align: center;
+        pointer-events: none;
+        .label{
+            position: absolute;
+            left: 50%;
+            top:-4px;
+            height: 14px;
+            display: inline-block;
+            line-height: 14px;
+            text-align: center;
+            background: #FB7055;
+            transform: translate(-50%,-100%);
+            color: #fff;
+            padding: 0 5px;
+            pointer-events: none;
+            border-radius: 7px;
+        }
+    }
+    &__v-dist-line{
+       
+        position: fixed;
+        width: 0;
+        border-left: 1px dashed #adadad;
+        z-index: 999;
+        text-align: center;
+        pointer-events: none;
+        .label{           
+            position: absolute;
+            top: 50%;
+            left: -4px;
+            height: 14px;
+            display: inline-block;
+            line-height: 14px;
+            text-align: center;
+            background: #FB7055;
+            transform: translate(-100%,-50%);
+            color: #fff;
+            padding: 0 5px;
+            border-radius: 7px;
+        }
+    }
+    &__h-space-line{
+        position: fixed;
+        height: 0;
+        z-index: 999;
+        text-align: center;
+        pointer-events: none;
+        transform: translateY(-50%);
+        background: #FB7055;
+        opacity: 0.4;
+        line-height: 100%;
+        .line{
+            position: absolute;    
+            top:50%;
+            left: 0;
+            right: 0;
+            // border-bottom: 1px dashed #fff;
+            height: 0;
+            pointer-events: none;
+        }
+    }
+    &__v-space-line{
+        position: fixed;
+        z-index: 999;
+        text-align: center;
+        pointer-events: none;
+        transform: translateX(-50%);
+        background: #FB7055;
+        opacity: 0.4;
+        .line{           
+            position: absolute;
+            left: 50%;
+            top:0;
+            bottom: 0;
+            width: 0;
+            // border-right: 1px dashed #fff;
+            pointer-events: none;
+        }
+    }
+}
