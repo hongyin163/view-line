@@ -15,8 +15,6 @@ import 'view-line/dist/view-line.css';
 moveByDom(view, top, left, function (top, left) {
     console.log(top, left);
 });
-
-
 ```
 
 修改view元素大小：
@@ -24,8 +22,8 @@ moveByDom(view, top, left, function (top, left) {
 import { moveByDom, resizeByDom, initLine } from 'view-line';
 import 'view-line/dist/view-line.css';
 resizeByDom(view, top, left, height, width, function (top, left, height, width) {
-        console.log(top, left, height, width);
-    });
+    console.log(top, left, height, width);
+});
 ```
 
 ## API说明
