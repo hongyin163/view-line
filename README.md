@@ -46,8 +46,10 @@ resizeByDom(view, top, left, height, width, function (top, left, height, width) 
 ## 示例
 参考 `sample` 文件夹的示例：
 
-移动：
+对齐线：
+
 ![移动](https://pic2.zhimg.com/v2-f81a12164a75b98d501811613841065d_b.webp)
 
-改变大小：
+间距吸附：
+
 ![移动](https://pic4.zhimg.com/v2-e6eefcd486ab43d7002757d8a94a030b_b.webp)
