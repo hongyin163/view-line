@@ -46,5 +46,10 @@ resizeByDom(view, top, left, height, width, function (top, left, height, width) 
 
 
 ## 示例
-参考 `sample` 文件夹的示例
-![]()
+参考 `sample` 文件夹的示例：
+
+移动：
+![移动](./sample/move.gif)
+
+改变大小：
+![移动](./sample/resize.gif)
