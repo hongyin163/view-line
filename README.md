@@ -11,7 +11,7 @@ npm install view-line --save
 移动view元素：
 ```js
 import { moveByDom, resizeByDom, initLine } from 'view-line';
-
+import 'view-line/dist/view-line.css';
 moveByDom(view, top, left, function (top, left) {
     console.log(top, left);
 });
@@ -22,7 +22,7 @@ moveByDom(view, top, left, function (top, left) {
 修改view元素大小：
 ```js
 import { moveByDom, resizeByDom, initLine } from 'view-line';
-
+import 'view-line/dist/view-line.css';
 resizeByDom(view, top, left, height, width, function (top, left, height, width) {
         console.log(top, left, height, width);
     });
