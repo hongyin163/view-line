@@ -41,3 +41,5 @@ node_modules2
 
 # VsCode
 .vscode
+
+dist
