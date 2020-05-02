@@ -114,7 +114,7 @@ const moveDeb: any = debounce((cb) => {
     cb();
 }, 1000);
 
-export const resizeByDom = (dom, top, left, height, width, onMoveEnd) => {
+export const resizeByDom = (dom, top, left, height, width, onResizeEnd) => {
 
     if (!dom) {
         return;
@@ -175,8 +175,8 @@ export const resizeByDom = (dom, top, left, height, width, onMoveEnd) => {
 
     moveDeb(function () {
         hideLines();
-        if (onMoveEnd) {
-            onMoveEnd(tarTop, tarLeft, tarHeight, tarWidth)
+        if (onResizeEnd) {
+            onResizeEnd(tarTop, tarLeft, tarHeight, tarWidth)
         }
     })
 }
