@@ -44,7 +44,10 @@ resizeByDom(view, top, left, height, width, function (top, left, height, width) 
 
 
 ## 示例
-参考 `sample` 文件夹的示例：
+
+运行 `npm run dev` 可以启动 `sample` 文件夹的示例
+
+效果图如下：
 
 对齐线：
 
