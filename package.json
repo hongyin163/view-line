@@ -1,8 +1,8 @@
 {
-  "name": "cmp-props-editor",
+  "name": "view-line",
   "version": "2.0.13",
-  "description": "",
-  "main": "dist/props-editor.js",
+  "description": "为自由画布加入对齐线、间距块、吸附能功能",
+  "main": "dist/view-line.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.config.js",
