@@ -51,8 +51,8 @@ resizeByDom(view, top, left, height, width, function (top, left, height, width) 
 
 对齐线：
 
-![移动](https://pic2.zhimg.com/v2-f81a12164a75b98d501811613841065d_b.webp)
+![resize](https://github.com/hongyin163/view-line/assets/3040906/08ce4fbb-6e3f-4221-ba1f-3d4c193fb74f)
 
 间距吸附：
 
-![移动](https://pic4.zhimg.com/v2-e6eefcd486ab43d7002757d8a94a030b_b.webp)
+![move](https://github.com/hongyin163/view-line/assets/3040906/b50b2b03-c36f-4e35-aed2-2341f72d46c8)
